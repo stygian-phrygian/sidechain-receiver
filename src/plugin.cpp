@@ -92,7 +92,7 @@ protected:
     {
         if (index != kParamSidechainGain) { return; }
 
-        parameter.hints = kParameterIsAutomatable | kParameterIsLogarithmic;
+        parameter.hints = kParameterIsAutomatable;
         parameter.name = "Sidechain Gain";
         parameter.symbol = "sidechain_gain";
         parameter.unit = "dB";
