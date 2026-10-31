@@ -23,7 +23,7 @@ words, we're free from Send tracks.
 ```
 git clone https://github.com/stygian-phrygian/sidechain-receiver
 cd sidechain-receiver
-cmake -S . -B build
+cmake -S . -B build -DCMAKE_BUILD_TYPE=Release
 cmake --build build
 cp -r ./build/bin/SidechainReceiver.vst3 ~/.vst3/ # or wherever your vst3 plugins are installed
 ```
